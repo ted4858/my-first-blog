@@ -19,7 +19,8 @@
         <h1>{{ post.title }}</h1>
 
         {% if post.header_image %}
-            <img src="{{ post.header_image.url }}">
+            <img src="{{ post.header_image.url }}" width="90%">
+            <br><br>
         {% endif %}
         
         <p>{{ post.text|linebreaksbr }}</p>
